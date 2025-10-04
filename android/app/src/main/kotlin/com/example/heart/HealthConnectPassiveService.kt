@@ -15,7 +15,6 @@ class HealthConnectPassiveService : Service() {
     override fun onBind(intent: Intent?): IBinder? {
         return null
     }
-
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         Log.d("HealthConnectService", "Passive service started: $intent")
 
