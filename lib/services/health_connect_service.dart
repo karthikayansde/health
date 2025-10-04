@@ -41,7 +41,6 @@ class HealthConnectService extends GetxService {
       return [];
     }
   }
-
   // Uses the 'health_pkg' alias to access types from the health package
   final health = health_pkg.Health();
   final _seenRecords = <String>{};
