@@ -10,7 +10,6 @@ class HealthDataPoint {
     required this.timestamp,
     this.recordId,
   });
-
   factory HealthDataPoint.fromMap(Map<String, dynamic> map) {
     return HealthDataPoint(
       type: map['type'] as String,
