@@ -224,7 +224,6 @@ class ChartPainter extends CustomPainter {
         _path.lineTo(x, y);
       }
     }
-
     canvas.drawPath(_path, _linePaint);
 
     // Draw points (only if not too many)
