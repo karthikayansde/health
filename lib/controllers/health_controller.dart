@@ -161,7 +161,6 @@ class HealthController extends GetxController {
           : stepsHistory.last,
     );
   }
-
   void recordBuildTime(double milliseconds) {
     _buildTimes.add(milliseconds);
     if (_buildTimes.length > 100) {
