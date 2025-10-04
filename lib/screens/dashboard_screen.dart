@@ -12,7 +12,6 @@ class DashboardScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final controller = Get.find<HealthController>();
-
     return Scaffold(
       appBar: AppBar(
         title: const Text('Health Dashboard'),
