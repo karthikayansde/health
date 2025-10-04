@@ -164,7 +164,6 @@ Located in `lib/controllers/health_controller.dart`:
 Located in `lib/controllers/health_controller.dart`:
 - Call `setStepsWindow(30)`
 - Automatically triggers decimation recalculation
-- Uses same LTTB strategy, preserves visual features
 
 ## Screenshots & Demo
 
@@ -177,5 +176,4 @@ See `docs/` folder for:
 
 **Package Name**: com.example.heart  
 **Target SDK**: 34  
-**Min SDK**: 26  
-**Estimated Effort**: 7 hours
+**Min SDK**: 26
